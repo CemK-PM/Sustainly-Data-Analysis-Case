@@ -2,7 +2,8 @@
 ### Scenario-Based Margin Stress Testing (Transition Master Case Study)
 
 > **Executive Summary:**  
-> A scenario-based analysis translating climate transition risk into company-level margins and unit economics. The project combines IPCC-aligned policy pathways with financial modeling to explore how carbon and energy price dynamics reshape industrial profitability through 2050.
+> A scenario-based analysis translating climate transition risk into company-level margins and unit economics.  
+> The project combines IPCC-aligned policy pathways with financial modeling and real-market illustrations to show how carbon and energy price dynamics reshape industrial profitability through 2050.
 
 ---
 
@@ -15,7 +16,7 @@ The work evolved across four layers:
 1. Regulatory transition risk  
 2. Scenario-based financial modeling  
 3. Company-level exposure  
-4. Unit economics and pricing stress tests  
+4. Unit economics under real market constraints  
 
 ---
 
@@ -43,7 +44,7 @@ This project combines **publicly available climate and economic datasets** with 
 ### 🧪 Modeled & Derived Data (Excel-Based)
 - Carbon and energy intensity trajectories (2020–2050)  
 - Scenario-specific carbon and energy price paths  
-- Transition coefficient representing policy pace  
+- Transition coefficient representing regulatory pace  
 - Company-level cost structures inferred from sector averages  
 
 > Some datasets are scenario-derived to support forward-looking analysis rather than historical precision.
@@ -53,7 +54,6 @@ This project combines **publicly available climate and economic datasets** with 
 ## 📊 Regulatory & Scenario Modeling
 
 **Weighted Net Margin Evolution Across Climate Scenarios (2030–2050)**  
-*(Source: `Transition Risk Analysis – Executive Summary of 1&2 (2025).pdf`)*
 
 ![Scenario Margin Projection](./assets/scenario_weighted_net_margins.jpg)
 
@@ -64,75 +64,81 @@ This project combines **publicly available climate and economic datasets** with 
 ## 🧠 Driver Importance Analysis
 
 **Relative Impact of Transition Variables on Net Margins**  
-*(Source: `2) Modelling and Proposal.xlsx` – Random Forest feature importance)*
+*Machine Learning: Random Forest feature importance*
 
-![Driver Importance](./assets/driver_importance_random_forest.png)
+![Driver Importance](./assets/driver_importance_random_forest.jpg)
 
-*Carbon and energy prices dominate margin outcomes.*
-
----
-
-## 🏭 Company-Level Approach
-
-**From Macro Scenarios to Company Exposure**  
-*(Source: `3) Company Approach.xlsx`)*
-
-![Company Approach Flow](./assets/company_approach_flow.png)
-
-*Regulatory scenarios translated into representative company cost structures.*
+*Carbon and energy prices dominate margin outcomes across scenarios.*
 
 ---
 
-## 🧮 Unit Economics – Core Cost Model
+## 🏛 From Regulation to Company Cost
 
-**Unit Cost Build-Up Under Rising Carbon and Energy Prices**  
-*(Source: `Unit Economics.xlsx`)*
+**EU ETS carbon pricing vs. company compliance costs**  
 
-![Unit Economics Core](./assets/unit_economics_core_costs.png)
+![EU ETS Compliance Cost & Emissions](./assets/compliance_cost.jpg)
 
-*Consistent linkage from €/tCO₂ to cement and concrete unit costs.*
+*While Scope 1 emissions decline in line with corporate climate targets, rising carbon prices cause compliance costs to peak between 2025 and 2040 before declining.  
+This highlights the timing mismatch between decarbonization pathways and regulatory price dynamics.*
 
 ---
 
-## ⚠ Market-Adjusted Unit Economics (Illustrative)
+## 🧮 Unit Economics – Core Carbon Cost Impact
 
-**Commercial Friction Overlay on Unit Prices**  
-*(Source: `Unit Economics last.xlsx` – final adjustment sheets)*
+**Carbon Cost per m³ vs EBITDA Margin After CO₂**
 
-![Unit Economics Market Adjustment](./assets/unit_economics_market_adjusted.png)
+![Unit Economics Carbon vs Margin](./assets/unit_economics_core.jpg)
 
-> ⚠ *Illustrative layer.*  
-> Demonstrates how competition, regulation, and sustainability signaling may amplify cost pressure beyond pure accounting logic.
+*ETS-driven carbon cost escalation leads to a sharp EBITDA margin compression around 2030, 
+highlighting the non-linear impact of transition costs on unit profitability.*
+
+---
+
+![Win Rate vs Price Pressure](./assets/win_rate_price_pressure.jpg)
+
+*Optimized and high-strength mixes retain higher win rates under price pressure, while standard mixes lose competitiveness faster.*
+
+---
+
+### 🔹 Modeled vs Realized Concrete Prices (Mid-sized, 2025)
+
+![Modeled vs Real Price Gap](./assets/price_gap_model_vs_real.jpg)
+
+*Even when modeled prices sit below regional benchmarks, margins can remain compressed due to limited pricing power.*
+
+> *Negative margins reflect market constraints and competitive pressure, not model inconsistency.*
 
 ---
 
 ## 💻 Technical Implementation
-- **Python:** Scenario logic, projections, charts  
-- **Excel:** Regulatory modeling, company approach, unit economics  
-- **Visualization:** Programmatic charts refined for reporting  
+- **Python:** Scenario logic, projections, feature importance analysis  
+- **Excel:** Regulatory modeling, company approach, unit economics, market examples  
+- **Visualization:** Programmatic and Excel-based charts refined for reporting  
 
 ---
 
 ## 🚀 Key Insights
+
 | Area | Insight |
 |---|---|
-| Financial Risk | Carbon & energy prices dominate margin outcomes |
-| Timing Effect | Early mitigation = short-term pain, long-term stability |
-| Company Exposure | Structural sensitivity outweighs scale |
-| Unit Economics | Cost realism strong; pricing realism weakens under soft factors |
+| Financial Risk | Carbon and energy prices are the dominant margin drivers |
+| Timing Effect | Early mitigation creates short-term pressure but reduces long-term volatility |
+| Company Exposure | Structural sensitivity matters more than scale |
+| Unit Economics | Cost-consistent models weaken under real market constraints |
 | Strategy | Climate strategy increasingly *is* margin strategy |
 
 ---
 
 ## 🛠 Tech Stack & Skills
 - **Tools:** Python (Pandas, NumPy, Matplotlib), Excel  
-- **Methods:** Scenario Analysis, ESG Risk Modeling, Unit Economics  
-- **Skills:** Climate Transition Risk, Financial Interpretation, Strategic Modeling  
+- **Methods:** Scenario Analysis, ESG & Transition Risk Modeling, Unit Economics  
+- **Skills:** Climate Finance Interpretation, Commercial Stress Testing  
 
 ---
 
 ## ⚠ Disclaimer
-This project is analytical and illustrative, not a valuation or investment recommendation.
+This project is analytical and illustrative, not a valuation or investment recommendation.  
+Company references are used as representative market examples.
 
 ---
 
