@@ -17,6 +17,14 @@ I cross-referenced verified emissions with global climate benchmarks:
 
 ---
 
+### 📊 Emissions & Risk Benchmarking
+
+*Comparative analysis of RWE and EnBW emission trends (2005-2024) and projected carbon compliance costs:*
+
+![Emissions Benchmark](Benchmark.jpeg)
+
+---
+
 ### 📝 Strategic Narrative
 To turn raw numbers into risk insights, I first built a reliable 20-year projection by filling data gaps with a **Forward/Backward Fill** logic. I then mapped facility coordinates against **EDO drought data**, which revealed high-risk "hotspots" in North Rhine-Westphalia. Finally, I modeled 2030 carbon price scenarios to show how RWE’s higher emission intensity makes it more vulnerable to regulatory shifts than EnBW.
 
@@ -42,7 +50,8 @@ I developed a Python-based workflow to automate data processing and visualizatio
 ### 📊 Final Output
 The full report includes detailed risk maps, synthetic data logic, and strategic mitigation steps:
 
-👉 [**View Case Study Report (PDF)**](./Outcomes.pdf)
+👉 [**Open in Browser (Google Drive)**](https://drive.google.com/file/d/1XT2-FhqhpOt3_lJ_73E-xkE4KhBAGCC5/view?usp=sharing)
+👉 [**Download/View Repository PDF**](./Outcomes.pdf)
 
 ---
 
