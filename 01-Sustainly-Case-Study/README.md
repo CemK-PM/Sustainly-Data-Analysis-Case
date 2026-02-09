@@ -21,7 +21,7 @@ I cross-referenced verified emissions with global climate benchmarks:
 
 *Comparative analysis of RWE and EnBW emission trends (2005-2024) and projected carbon compliance costs:*
 
-![Emissions Benchmark](Benchmark.jpeg)
+![Emissions Benchmark](Benchmark.jpg)
 
 ---
 
