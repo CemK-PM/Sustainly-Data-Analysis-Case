@@ -55,7 +55,7 @@ This project combines **publicly available climate and economic datasets** with 
 **Weighted Net Margin Evolution Across Climate Scenarios (2030–2050)**  
 *(Source: `Transition Risk Analysis – Executive Summary of 1&2 (2025).pdf`)*
 
-![Scenario Margin Projection](./assets/scenario_weighted_net_margins.png)
+![Scenario Margin Projection](./assets/scenario_weighted_net_margins.jpg)
 
 *Margins diverge by transition timing, with early compression under aggressive mitigation and deferred risk under weak regulation.*
 
