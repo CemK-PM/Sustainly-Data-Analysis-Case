@@ -51,7 +51,7 @@ I developed a Python-based workflow to automate data processing and visualizatio
 The full report includes detailed risk maps, synthetic data logic, and strategic mitigation steps:
 
 👉 [**Open in Browser (Google Drive)**](https://drive.google.com/file/d/1XT2-FhqhpOt3_lJ_73E-xkE4KhBAGCC5/view?usp=sharing)
-👉 [**Download/View Repository PDF**](./Outcomes.pdf)
+👉 [**View Repository PDF**](./Outcomes.pdf)
 
 ---
 
