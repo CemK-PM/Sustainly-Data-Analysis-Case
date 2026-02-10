@@ -114,7 +114,7 @@ highlighting the non-linear impact of transition costs on unit profitability.*
 - **Python:** Scenario logic, projections, feature importance analysis  
 - **Excel:** Regulatory modeling, company approach, unit economics, market examples  
 - **Visualization:** Programmatic and Excel-based charts refined for reporting  
-
+👉 [**View Python Analysis**](./analysis_script.py)
 ---
 
 ## 🚀 Key Insights
