@@ -110,11 +110,9 @@ highlighting the non-linear impact of transition costs on unit profitability.*
 
 ---
 
-## 💻 Technical Implementation
-- **Python:** Scenario logic, projections, feature importance analysis  
-- **Excel:** Regulatory modeling, company approach, unit economics, market examples  
-- **Visualization:** Programmatic and Excel-based charts refined for reporting  
-👉 [**View Python Analysis**](./analysis_script.py)
+## 💻 Technical Note: 
+This project represents my final work at Sustainly, focusing on the intersection of Supply Chain Risk and Corporate Finance. It was developed using a hybrid Python-Excel modeling framework.
+While Python (Pandas & Scikit-Learn) was used for large-scale data synthesis and scenario simulations, the core value of this analysis lies in its Strategic Financial Architecture. The project showcases how climate data translates into Unit Economics and real-world market constraints, prioritizing business logic over static scripts.
 ---
 
 ## 🚀 Key Insights
