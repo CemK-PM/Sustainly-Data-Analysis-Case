@@ -31,10 +31,10 @@ To turn raw numbers into risk insights, I first built a reliable 20-year project
 ---
 
 ### 💻 Technical Implementation
-I developed a Python-based workflow to automate data processing and visualization:
-* **Data Engineering:** Managed 20-year datasets and handled missing values via synthetic modeling.
+Final project at Sstainly analyzing RWE & EnBW’s climate risk. Built via a hybrid Python-Excel framework:
+* **Data Engineering:** Used Python (Pandas) and Forward/Backward Fill logic to reconstruct 20 years of emission data.
 * **Geospatial Analysis:** Used **Folium** to overlay facility coordinates with climate risk layers.
-👉 [**View Python Analysis Code**](./analysis_script.py)
+* **Strategic Focus:** Prioritized Forward-Looking Financial Exposure and business logic over static scripting to show how climate data drives corporate strategy.
 
 ---
 
